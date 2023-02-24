@@ -1,0 +1,34 @@
+table {
+    border-spacing: 0 15px;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    width: 650px;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+td {
+    color: #333333;
+}
+
+.tablePart {
+    background-color: #eac380;
+    color: #fff;
+    text-align: center;
+}
+
+.bodyContainer {
+    font-size: x-large;
+}
+
+.tableDesc {
+    text-align: center;
+}

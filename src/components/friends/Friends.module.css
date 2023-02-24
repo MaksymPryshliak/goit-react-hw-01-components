@@ -1,0 +1,32 @@
+.friendList {
+    display: flex;
+    gap: 15px;
+    margin-top: 40px;
+    flex-direction: column;
+}
+
+.online {
+    border-radius: 50%;
+    height: 15px;
+    margin-right: 10px;
+    width: 15px;
+    background-color: green;
+}
+
+.offline {
+    border-radius: 50%;
+    height: 15px;
+    margin-right: 10px;
+    width: 15px;
+    background-color: red;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+   box-shadow: 3px 3px 3px #000;
+    background-color: white;
+    width: 210px;
+    border-radius: 5px;
+    padding: 10px;
+}
